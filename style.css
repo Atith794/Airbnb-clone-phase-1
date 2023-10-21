@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+    background: #000000;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#bmg{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    /* background: black !important; */
+}
+
+#bmgp{
+    background:transparent;
+    width: fit-content;
+}
+
+#options{
+    left:55rem;
+    position: absolute;
+}
+
+
+#coptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: blue; */
+    width: 30rem;
+}
+
+#searchbar{
+    display: flex;
+    background-color: white;
+    width: 60vw;
+    height: 10vh;
+    padding: 10rem, 10rem, 10rem, 15rem;
+    border-radius: 1000px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 30rem;
+    top: 8rem;
+}
+
+
+#location{
+    padding-left: 3.5rem;
+    background-color: #FFFFFF;
+    border-radius: 35%;
+}
+
+#locationf{
+    background-color: #FFFFFF;
+}
+
+#locationip{
+    background-color: transparent;
+    
+}
+
+#locationp{
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
+
+#checkinf{
+    background-color: #FFFFFF;
+}
+
+#checkinip{
+    background-color: transparent;
+}
+
+#checkinp{
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#checkout{
+    background-color:white;
+}
+
+
+
+#checkoutf{
+    background-color: transparent;
+}
+
+#checkoutp{
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#checkoutip{
+    background-color: transparent;
+}
+
+
+#guests{
+    background-color: white;
+}
+
+
+
+#guestsf{
+    background-color: transparent;
+}
+
+#guestsip{
+    background-color: transparent;
+}
+
+#guestsp{
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+#searchbtn{
+    border-radius: 80%;
+    background-color: white;
+    padding-right: 1rem;
+}
+#sb{
+    padding-top: 0.5rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.bl{
+    height: 5vh;
+}
+
+#bp{
+    width: 92vw;
+    height: 150vh;
+    padding: 80px;
+    /* border-radius: 11%; */
+    gap: 24px;
+}
+
+#bigpic{
+    top: 15rem;
+    left: 5rem;
+    background: black;
+    position: absolute;
+}
+
+#bpt{
+    color: white;
+    position: absolute;
+    left: 35rem;
+    top: 80rem;
+    width: 100%;
+    /* //styleName: text-5xl/Medium; */
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: transparent;
+    
+}
+
+#ifb{
+   
+    
+}
+
+#ifbt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 10%;
+    height: 7vh;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 100px;
+    gap: 8px;
+    /* //styleName: text-base/Medium; */
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #671296;
+    left: 60rem;
+    top: 90rem;
+
+}
+
+#cards4{
+    background: white;
+    /* color:white; */
+    top: 130rem;
+    position: absolute;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#card1{
+    background: white;
+    margin: 1rem;
+}
+
+
+#card2{
+    background: white;
+    margin: 1rem;
+}
+
+#card3{
+    background: white;
+    margin: 1rem;
+}
+
+#card4{
+    background: white;
+    margin: 1rem;
+}
+
+#ifynt{
+    width: 100%;
+    height: 15vh;
+    background:white;
+    top: 120rem;
+    position: absolute;
+    padding-left:12rem;
+    display: flex;
+    align-items: center;
+    /* //styleName: text-4xl/Medium; */
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+#card1h{
+    background: white;
+    padding: 1rem;
+}
+
+#card1h>h3,p{
+    background: white;
+}
+
+#card2h{
+    background: white;
+}
+
+#card2h>h3,p{
+    background: white;
+}
+
+#card3h{
+    background: white;
+}
+
+#card3h>h3,p{
+    background: white;
+}
+
+#card4h{
+    background: white;
+}
+
+#card4h>h3,p{
+    background: white;
+}
+
+
+/* Main section Part2 */
+
+#p2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+
+
+#p2h2{
+    position: absolute;
+    width: 100%;
+    top: 160rem;
+    padding-left: 12rem;
+    padding-top: 2rem;
+    background: white;
+    color: black;
+    /* //styleName: text-4xl/Medium; */
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+#p2imgs{
+    position: absolute;
+    top:168.1rem;
+    width: 100%;
+    background: white;
+    padding: 5rem;
+    padding-left: 12rem;
+}
+
+
+
+#p2img1{
+    /* position: absolute;
+    left: 80rem; */
+    border-radius: 10px;
+}
+#p2img2{
+    position: absolute;
+    left: 80rem;
+    border-radius: 10px;
+}
+
+
+/* Part3 */
+
+#p3{
+    width: 100%;
+    background: white;
+    position: absolute;
+    top:240rem;
+    display: flex;
+}
+
+#p3h2{
+    background-color: white;
+    /* //styleName: text-5xl/Medium; */
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* padding-left: 12rem; */
+}
+
+
+#p3c{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 12rem;
+}
+
+#p3img{
+    background: white;
+    /* width: 100%; */
+    width: 80vw;
+    height: 320px;
+    padding-right: 12rem;
+
+}
+
+#p3btn{
+    width: 135px;
+    height: 60px;
+    /* padding-left: 12rem; */
+}
+
+
+#p4{
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: 230rem;
+}
+
+#p4img{
+
+    background: white;
+    position: absolute;
+    /* top: 280rem; */
+    padding: 12rem;
+}
+
+/* #p5{
+    position: absolute;
+    top: 318rem;
+    background: white;
+}
+
+
+
+
+#p5p1{
+    color: red;
+    position: absolute;
+    top:120rem;
+} */
+
+#p5{
+    width: 100%;
+    background: white;
+}
+
+
+#p5img{
+    position: absolute;
+    top: 315rem;
+    background: white;
+    width: 1580px;
+    padding-left: 12rem;
+}
+
+
+#footerimg{
+    position: absolute;
+    width: 100%;
+    top:348rem;
+}
